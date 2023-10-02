@@ -1,0 +1,57 @@
+[𝐒𝐩𝐥𝐮𝐧𝐤 𝐒𝐈𝐄𝐌 𝐇𝐨𝐦𝐞 𝐋𝐚𝐛]💥Instruction/build below:👇 👇 👇
+
+This home-lab will help you set up your own SOC at $0 by utilizing free trial software.
+
+This is the most powerful home-lab focused on setting up Splunk SIEM and real-world use cases. If you’re interested in becoming a SOC Analyst(Tier 1/2), this lab will help you with SOC tools, rules, queries, apps, and integration.
+
+Full credit goes to Rajneesh G. for making this content.
+
+🟢 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 𝐚𝐧𝐝 𝐎𝐒
+📌 Download Virtualbox - https://www.virtualbox.org/wiki/Downloads
+📌 Download Windows Server 2019 [FREE TRIAL 180 days] - https://info.microsoft.com/ww-landing-windows-server-2019.html
+
+🟢 𝐒𝐞𝐭 𝐮𝐩 𝐒𝐩𝐥𝐮𝐧𝐤 𝐒𝐈𝐄𝐌
+📌 Download Splunk Enterprise [FREE TRIAL 60 days] - https://www.splunk.com/en_us/download/splunk-enterprise.html
+📌 Download Splunk Security Essentials App [FREE] - https://splunkbase.splunk.com/app/3435
+
+🟢 𝐒𝐚𝐦𝐩𝐥𝐞 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐃𝐚𝐭𝐚𝐬𝐞𝐭
+📌 BOTS V2 Dataset [16.4 GB]. - https://lnkd.in/dhJDy9fG
+📌 BOTS V2 Dataset(Attack Only) [3.2 GB] - https://lnkd.in/ds2uuTm6
+
+🟢 Top 20 Use Cases
+You can go through the list of Splunk queries, detection rules and playbook here: https://research.splunk.com/detections/
+Top 20 Detection rules below:
+⭐ 𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐅𝐚𝐢𝐥𝐞𝐝 𝐋𝐨𝐠𝐢𝐧𝐬: Detect multiple failed login attempts within a short time frame from a single source IP.
+⭐𝐔𝐧𝐮𝐬𝐮𝐚𝐥 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐲: Monitor for unusual activities, such as excessive failed logins or multiple password changes within a short time for a specific user.
+⭐𝐁𝐫𝐮𝐭𝐞 𝐅𝐨𝐫𝐜𝐞 𝐀𝐭𝐭𝐚𝐜𝐤: Look for repeated login failures across multiple accounts within a specific time window.
+⭐𝐏𝐫𝐢𝐯𝐢𝐥𝐞𝐠𝐞𝐝 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐔𝐬𝐚𝐠𝐞: Monitor privileged account logins and actions to identify any unauthorized or unusual activities.
+⭐𝐌𝐚𝐥𝐰𝐚𝐫𝐞 𝐀𝐫𝐭𝐢𝐟𝐚𝐜𝐭𝐬: Search for known malware file hashes, filenames, or command-and-control IP addresses.
+⭐𝐎𝐮𝐭𝐛𝐨𝐮𝐧𝐝 𝐃𝐚𝐭𝐚 𝐄𝐱𝐟𝐢𝐥𝐭𝐫𝐚𝐭𝐢𝐨𝐧: Detect large data transfers to external destinations that may indicate data exfiltration.
+⭐𝐈𝐧𝐛𝐨𝐮𝐧𝐝 𝐒𝐮𝐬𝐩𝐢𝐜𝐢𝐨𝐮𝐬 𝐓𝐫𝐚𝐟𝐟𝐢𝐜: Look for unexpected incoming traffic from suspicious IP addresses or geolocations.
+⭐𝐀𝐧𝐨𝐦𝐚𝐥𝐨𝐮𝐬 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐓𝐫𝐚𝐟𝐟𝐢𝐜: Identify unusual network traffic patterns, such as spikes or deviations from baseline.
+⭐𝐒𝐮𝐬𝐩𝐢𝐜𝐢𝐨𝐮𝐬 𝐔𝐬𝐞𝐫-𝐀𝐠𝐞𝐧𝐭 𝐒𝐭𝐫𝐢𝐧𝐠𝐬: Identify potentially malicious user-agent strings used in web requests.
+⭐𝐑𝐚𝐧𝐬𝐨𝐦𝐰𝐚𝐫𝐞 𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐲: Detect ransomware indicators like file renames with specific extensions or ransom notes.
+
+Remember SHARING is Caring.. Please reshare this post to the Cyber community!! (smiley)
+
+Credits and Source: https://www.linkedin.com/posts/david-meece-cybertech-dave_cybersecurity-infosecurity-infosec-activity-7112453912934182912-zMch?utm_source=share&utm_medium=member_desktop
+
+Splunk Tutorials: 
+
+https://www.youtube.com/watch?v=6GUtZzW62Xk - Windows Endpoint Investigation with Splunk | TryHackMe New Hire Old Artifacts
+
+https://www.youtube.com/watch?v=mcXFTqwahkg - Ransomware Investigation with Splunk | TryHackMe PS Eclipse
+
+https://www.youtube.com/watch?v=eurXEpv9rro&t=3s - Investigate an Infected Machine with Splunk | TryHackMe Benign
+
+https://www.youtube.com/watch?v=-zA6np2MDNU&t=215s - Cyber Incident Response with Splunk | TryHackMe Incident Handling with Splunk
+
+https://www.youtube.com/watch?v=3CiRs6WaWaU - Splunk Tutorial for Beginners (Cyber Security Tools)
+
+https://www.youtube.com/watch?v=SdhqftLHGUs&list=PLY2f3p7xyMiTUbUo0A_lBFEwj6KdH0nFy - SPLUNK: The Complete Beginner Tutorial
+
+Yung mga tambay sa Discord jan😅
+
+https://discord.gg/9Pf4X5QaqN
+
+#cybersecurity #infosecurity #infosec #leadershipbyexample
